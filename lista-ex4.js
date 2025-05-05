@@ -1,0 +1,1 @@
+console.log("Lista de produtos:\n -Arroz\n -Feijão \n -Òleo")
