@@ -1,1 +1,8 @@
-body {background-color: rgb(186, 255, 249);}
+body {background-color: rgb(186, 255, 249);
+font-family: "Sankofa Display";
+    .sankofa-display-regular {
+        , sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+      }
