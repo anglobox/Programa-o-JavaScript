@@ -5,7 +5,8 @@
         <link rel="stylesheet" href="form.css">
     </head>
 <body>
-    <h1>Formulario de Avaliação do catalogo de filmes</h1>
+    <h1 class="titulo">Formulario de Avaliação do catalogo de filmes</h1>
+    <p class="estrelas">⭐⭐⭐⭐⭐</p>
     <form>
         <fieldset>
             <legend><strong>O que voce achou da adição do filme: Luca</strong></legend>
@@ -132,9 +133,7 @@
             <label> | <img src="Avaliacao/Vermelho-Raiva.jpg" >  Péssimo </label>
             <input type="radio" name="avaliacao_deus">
         </fieldset>
-    </form>
 
-    <form>
         <fieldset>
             <label for="descobriu">Selecione o que você gostou em nosso cinema: </label>
                 <input type="checkbox" name="Limpeza">Limpeza</option>
@@ -143,19 +142,35 @@
                 <input type="checkbox" name="Qualidade-do-filme">Qualidade do filme</option>
             </select>
         </fieldset>
-    </form>
 
-    <form>
         <fieldset>
             <legend>Preecha as informações para receber o anuncios de nossos filmes em primeira mão</legend>
             <label for="nomesobrenome">Nome e sobrenome</label>
                 <input type="text" id="nomesobrenome" required>
-                <label for="email">E-mail</label>
+                <label for="email">| E-mail<img class="imgs_w_e" src="Avaliacao/email.jpg"></label>
                 <input type="email" id="email" required placeholder="seuemail@dominio.com">
-                <label for="telefone">Telefone</label>
+                <label for="whatsapp"> | Whatsapp <img class="imgs_w_e" src="Avaliacao/whats.jpg"></label>
                 <input type="tel" id="telefone" required placeholder="(XX) XXXXX-XXXX">
         </fieldset>
+
+        <fieldset>
+        <label for="carros">Escolha o metodo de contato de preferencia para receber as novidades:</label>
+        <select name="carros" id="carros">
+        <option value="email">E-mail</option>
+        <option value="whatsapp">Whatsapp</option>
+        </select>
+        </fieldset>
+
+        <fieldset>
+            <label for="horario">Qual horário prefere receber as novidades?</label>
+            <select size="1">
+            <option>Manhã</option>
+            <option>Tarde</option>
+            <option>Noite</option>
+            </select>
+            </fieldset>
+
+            <h1 class="enviar"><button class="enviartamanho" type="submit">Enviar</button></h1>
     </form>
-    
 </body>
 </html>
