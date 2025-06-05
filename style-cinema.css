@@ -1,6 +1,7 @@
-body { background-image: url(Filmes/Fundo.jpg);
-     background-color: rgb(0, 0, 0);
-font-family: "Sankofa Display", sans-serif;
+body {
+    background-image: url(Filmes/Fundo.jpg);
+    background-color: rgb(0, 0, 0);
+    font-family: "Sankofa Display", sans-serif;
 }
 
 table {
@@ -8,16 +9,39 @@ table {
     background-color: black;
 }
 
-table, th, td {
+table,
+th,
+td {
     border: 2px solid rgb(255, 0, 0);
-}   
+}
 
 .sem_borda {
     border: 10px solid rgb(255, 123, 0);
 
 }
 
-th, td {color: rgb(9, 255, 0);}
+th,
+td {
+    color: rgb(9, 255, 0);
+}
 
-th, td {background-color: black;}
-h3 {background-color: rgb(255, 255, 255);}
+th,
+td {
+    background-color: black;
+}
+
+h3 {
+    background-color: rgb(255, 255, 255);
+}
+
+.formulario {
+    text-align: center;
+    font-weight: 900px;
+    color: aqua;
+    background-color: black;
+    font-size: 30px;
+}
+/* é o a o que muda do link */
+a:visited {
+    background-color: black;
+    color: whitesmoke;}
