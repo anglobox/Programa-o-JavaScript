@@ -33,6 +33,10 @@ td {
 h3 {
     background-color: rgb(255, 255, 255);
 }
+h1 {
+    background-color: aliceblue;
+    text-align: center;
+}
 
 .formulario {
     text-align: center;
@@ -45,3 +49,21 @@ h3 {
 a:visited {
     background-color: black;
     color: whitesmoke;}
+
+/* div pode ser selecionada por todas as divs para ter o mesmo estilo */
+.selecao {
+    font-size: xx-large;
+    color: rgb(255, 0, 0);
+    display: inline-block;
+    background-color: rgb(0, 0, 0);
+    height: 50px;
+    width: 100px;
+    padding: 20px;
+    border: 7px solid rgb(255, 0, 0);
+}
+.ordenar {
+    background-color: black;
+    margin: 0px auto;
+    width: 500px;
+}
+/* criar outra div para fazer o fundo */
