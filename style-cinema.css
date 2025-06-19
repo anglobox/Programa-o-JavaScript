@@ -84,7 +84,7 @@ a:visited {
 .direita {
     position: absolute;
     display: inline-block;
-    right: 1%;
+    right: 1%; /*porcentagem em relação ao site*/
 }
 
 .ordenar {
