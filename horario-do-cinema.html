@@ -4,7 +4,7 @@
 <head>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Sankofa+Display&display=swap" rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Sankofa+Display&display=swap" rel="stylesheet"> -->
     <meta charset="UTF_8">
     <link rel="stylesheet" href="style-cinema.css">
 </head>
@@ -16,9 +16,17 @@
 <!-- a div é um block (uma caixa de texto) onde eu posso manupla-la no CSS tanto com classe como a div inteira -->
 <!-- o div ja vem padrão como block eu posso alterar ele para um inline, inline-black ou none no CSS -->
 <div class="ordenar">
-    <div class="selecao">filmes</div>
-    <div class="selecao">desenhos</div>
-    <div class="selecao">ação</div>
+    <div class="main-logo"><img src="Filmes/Mega-Piratao.png" alt=""></div>
+    <div class="direita">
+        <div class="selecao">Ação</div> <!--deixando as div em absolute no css para não pegar formatação da div main -->
+        <div class="selecao">Aventura</div>
+        <div class="selecao">Comédia</div>
+        <div class="selecao">Drama</div>
+        <div class="selecao">Ficção científica</div>
+        <div class="selecao">Terror</div>
+        <div class="selecao">Romance</div>
+        <div class="selecao">Animação</div>
+    </div>
 </div>
 <table>
     <thead>
@@ -34,7 +42,7 @@
     </thead>
     <tbody>
         <tr>
-            <td><strong>10h</strong></td>
+            <td class="num"><strong>10h</strong></td>
             <td class="sem_borda"><a href="Luca.html" target="_blank"><img src="Filmes/Luca.jpg" alt="Filme"
                         height="300" width="200"></a></td>
             <td class="sem_borda"><a
