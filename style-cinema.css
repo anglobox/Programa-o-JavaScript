@@ -69,7 +69,7 @@ a:visited {
 }
 
 .selecao {
-    font-size: xx-large;
+    font-size: 3vh; /* ultilizando o *VH* para padronizar formatar de acordo com o tamanho da tela*/
     display: inline-block;
     color: #fe4700;
     background-color: rgb(19, 24, 41);
@@ -88,9 +88,10 @@ a:visited {
 }
 
 .ordenar {
+    box-sizing: border-box; /* width: 100% + border de 15px está somando mais de 100% da largura total da tela | box-sizing corrige tamanho da div*/
     background-color: rgb(19, 24, 41);
     width: 100%;
-    height: 80px;
+    height: 12vh; /* VH serve como 12% da altura da tela */
     text-align: left;
      border: 15px groove #fe4700 /*groove deixa a borda estilizada (obs. nunca deixar de definir a borda) */
 
