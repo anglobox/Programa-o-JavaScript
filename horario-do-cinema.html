@@ -12,23 +12,56 @@
 <body>
 
 </html>
-<h1>Catalogo de filmes</h1>
 <!-- a div é um block (uma caixa de texto) onde eu posso manupla-la no CSS tanto com classe como a div inteira -->
 <!-- o div ja vem padrão como block eu posso alterar ele para um inline, inline-black ou none no CSS -->
-<div class="ordenar">
-    <div class="main-logo"><img src="Filmes/Mega-Piratao.png" alt=""></div>
-    <div class="direita">
-        <div class="selecao">Ação</div> <!--deixando as div em absolute no css para não pegar formatação da div main -->
-        <div class="selecao">Aventura</div>
-        <div class="selecao">Comédia</div>
-        <div class="selecao">Drama</div>
-        <div class="selecao">Ficção científica</div>
-        <div class="selecao">Terror</div>
-        <div class="selecao">Romance</div>
-        <div class="selecao">Animação</div>
+<header>
+    <div class="container">
+        <div class="ordenar">
+            <div class="main-logo"><img src="Filmes/Mega-Piratao.png" alt=""></div>
+            <div class="direita">
+                <div class="selecao">Ação</div>
+                <!--deixando as div em absolute no css para não pegar formatação da div main -->
+                <div class="selecao">Aventura</div>
+                <div class="selecao">Comédia</div>
+                <div class="selecao">Drama</div>
+                <div class="selecao">Ficção científica</div>
+                <div class="selecao">Terror</div>
+                <div class="selecao">Romance</div>
+                <div class="selecao">Animação</div>
+            </div>
+        </div>
+    </div>
+</header>
+<div class="busca">
+    <div class="busca2">Busca <div class="lupa">
+            <img src="Filmes/lupa.png" alt="Lupa">  <!-- para fazer espaço vazio = alt+0160 -->
+        </div>
+        <input type="text" id="busca" required placeholder="Busque seu filme favorito...">
     </div>
 </div>
-<table>
+<div class="pop"><strong>Nossos filmes polulares</strong></div>
+
+<div id="linha-preta"></div>
+
+<div class="filmes">
+    <div class="filmes"><img src="Filmes/dragao.jpg" alt=""></div>
+    <div class="filmes"><img src="Filmes/minecraft.jpg" alt=""></div>
+    <div class="filmes"><img src="Filmes/Harry_Potter.jpg" alt=""></div>
+    <div class="filmes"><img src="Filmes/estrelas.jpg" alt=""></div>
+    <div class="filmes"><img src="Filmes/Luca.jpg" alt=""></div>
+    <div class="filmes"><img src="Filmes/o-grito.jpg" alt=""></div>
+    <div class="filmes"><img src="Filmes/queen.jpg" alt=""></div>
+</div>
+<div class="filmes">
+    <div class="filmes"><img src="Filmes/Bons-de-bico.jpg" alt=""></div>
+    <div class="filmes"><img src="Filmes/Bussola-de-Deus.jpg" alt=""></div>
+    <div class="filmes"><img src="Filmes/Enrolados.jpg" alt=""></div>
+    <div class="filmes"><img src="Filmes/Era-do-gelo.jpg" alt=""></div>
+    <div class="filmes"><img src="Filmes/Branca-de-neve.jpg" alt=""></div>
+    <div class="filmes"><img src="Filmes/Missao-cegonha.jpg" alt=""></div>
+    <div class="filmes"><img src="Filmes/Os-penguins-do-papai.jpg" alt=""></div>
+</div>
+<!-- <table>
     <thead>
         <tr>
             <th rowspan="3">Cinema</th>
@@ -78,7 +111,7 @@
         </tr>
         </tr>
     </tbody>
-</table>
+</table> -->
 <h3 class="formulario"><a href="formulario.html" target="_blank">Formulario de avaliação do catalogo dos Filmes</a>
 </h3>
 </body>
