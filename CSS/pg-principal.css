@@ -1,0 +1,217 @@
+body {
+    background-image: url(/Filmes/Fundo.jpg);
+    background-color: rgb(0, 0, 0);
+    font-family: "Sankofa Display", sans-serif;
+    margin: 0%;
+    overflow-x: hidden;
+}
+
+
+
+/* https://gruposeper.com/  usar esse site de exemplo para o projeto*/
+
+table {
+    margin: auto;
+    background-color: rgb(155, 155, 155);
+}
+
+
+table,
+th,
+td {
+    border: 2px solid rgb(19, 24, 41);
+    padding: 3px;
+}
+
+
+.sem_borda {
+    border: 10px solid rgb(236, 91, 33);
+
+}
+
+th,
+td {
+    color: rgb(9, 255, 0);
+}
+
+th,
+td {
+    background-color: rgb(49, 49, 49);
+}
+
+h3 {
+    background-color: rgb(255, 255, 255);
+}
+h1 {
+    background-color: aliceblue;
+    text-align: center;
+}
+
+
+.formulario {
+    text-align: center;
+    font-weight: 900px;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    font-size: 30px;
+}
+/* é o a o que muda do link */
+a:visited {
+    background-color: black;
+    color: rgb(255, 0, 0);}
+
+/* div pode ser selecionada por todas as divs para ter o mesmo estilo */
+.main-logo{
+    display: inline-block;
+}
+.main-logo img /*tem que ter o img no final para pegar a imagem com css*/{ 
+    margin: 2px;
+    width: 450px;
+    height: 76px;
+
+}
+
+.visited-filmes a, /* a (,) serve como and*/
+.visited-filmes a:visited,
+.visited-filmes a:hover,
+.visited-filmes a:active {
+  color: rgb(236, 91, 33);
+  text-decoration: none; /* opcional: remove o sublinhado */
+}
+
+
+.filmes {
+    box-sizing: border-box;
+    border: double 20px  #070708;
+    display: flex;
+    background-color:rgb(19, 24, 41) ;
+    
+    width: 100% /* o width padroniza de acordo com os px */
+    
+}
+
+.filmesborda1 {
+    box-sizing: border-box;
+    border: ridge 20px rgb(236, 91, 33);
+    border-bottom: none;
+    display: flex;
+    background-color:rgb(19, 24, 41) ;
+    
+    width: 100% /* o width padroniza de acordo com os px */
+    
+}
+
+.filmesborda2 {
+    box-sizing: border-box;
+    border: ridge 20px rgb(236, 91, 33);
+    display: flex;
+    background-color:rgb(19, 24, 41) ;
+    border-left: none;
+    border-right: none;
+    
+    width: 100% /* o width padroniza de acordo com os px */
+    
+}
+
+.filmesborda3 {
+    box-sizing: border-box;
+    border: ridge 20px rgb(236, 91, 33);
+    border-top: none;
+    display: flex;
+    background-color:rgb(19, 24, 41) ;
+    
+    width: 100% /* o width padroniza de acordo com os px */
+    
+}
+.filmes img{
+     width: 100%;
+  height: 100%;
+
+}
+
+.container {
+  box-sizing: border-box;
+  width: 100%; /* largura fixa como se fosse tela cheia */
+  height: 14vh;
+  position: relative;
+}
+
+.busca {
+    box-sizing: border-box; /* width: 100% + border de 15px está somando mais de 100% da largura total da tela | box-sizing corrige tamanho da div*/
+    background-color: rgb(19, 24, 41);
+    width: 100%;
+    height: 90; /* VH serve como 12% da altura da tela */
+    text-align: left;
+    padding: 0%;
+    border-top: solid 20px black;
+    border-bottom: solid 50px black;
+
+}
+
+.busca2 {
+        font-size: 3vh; /* ultilizando o *VH* para padronizar formatar de acordo com o tamanho da tela*/
+    display: flex;
+    align-items: center;
+    color: rgb(236, 91, 33);
+    background-color: rgb(19, 24, 41);
+    padding: 2px; /* espaço do texto dentro do bloco */
+    margin: 5px;
+}
+
+.lupa img{
+        margin: 2px;
+        margin-left: 15px;
+    width: 25px;
+    height: 25px;
+}
+
+.fundopop {background-color: black;} /*corrigir fundo que ficou com radius*/
+
+.pop{
+            font-size: 3vh; /* ultilizando o *VH* para padronizar formatar de acordo com o tamanho da tela*/
+    display: inline-block;
+    color: rgb(236, 91, 33);
+    background-color: rgb(0, 0, 0);
+    padding: 12px; /* espaço do texto dentro do bloco */
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    border: dotted 10px rgb(240, 163, 20) ;
+    border-radius: 22px;
+    box-sizing: border-box;
+}
+
+#linha-preta {
+  height: 30px;
+  background-color: black;
+  width: 100%;
+  margin: 0%;
+}
+
+.selecao {
+    font-size: 3vh; /* ultilizando o *VH* para padronizar formatar de acordo com o tamanho da tela*/
+    display: inline-block;
+    color: rgb(236, 91, 33);
+    background-color: rgb(19, 24, 41);
+    padding: 10px; /* espaço do texto dentro do bloco */
+    border: 7px groove rgb(236, 91, 33);
+    border-radius: 15px; /*deixa a borda redondinha */ 
+    margin: 5px;
+}
+
+.direita {
+    position: absolute;
+    display: inline-block;
+    right: 1%; /*porcentagem em relação ao site*/
+    margin-top: 0.5rem;
+}
+
+.ordenar {
+    box-sizing: border-box; /* width: 100% + border de 15px está somando mais de 100% da largura total da tela | box-sizing corrige tamanho da div*/
+    background-color: rgb(19, 24, 41);
+    width: 100%;
+    height: 100%; /* VH serve como 12% da altura da tela */
+    text-align: left;
+     border: 15px groove rgb(236, 91, 33) /*groove deixa a borda estilizada (obs. nunca deixar de definir a borda) */
+}
+/* criar outra div para fazer o fundo */
