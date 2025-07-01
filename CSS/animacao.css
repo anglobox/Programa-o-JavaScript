@@ -98,8 +98,8 @@ a:visited {
     border: ridge 20px rgb(236, 91, 33);
     display: flex;
     background-color:rgb(19, 24, 41) ;
-    border-left: none;
-    border-right: none;
+    border-bottom: none;
+    border-top: none;
     
     width: 100% /* o width padroniza de acordo com os px */
     
