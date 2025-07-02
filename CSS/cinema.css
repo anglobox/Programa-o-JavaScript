@@ -1,0 +1,47 @@
+body {
+    background-color: rgb(0, 0, 0);
+    font-family: "Sankofa Display", sans-serif;
+    margin: 0%;
+    overflow-x: hidden;
+}
+
+
+
+/* https://gruposeper.com/  usar esse site de exemplo para o projeto*/
+
+table {
+    margin: auto;
+    background-color: #141A32;
+}
+
+
+table,
+th,
+td {
+    border: 2px solid rgb(255, 145, 0);
+    padding: 3px;
+}
+
+
+.sem_borda {
+    border: 10px solid rgb(236, 91, 33);
+
+}
+
+th,
+td {
+    color:rgb(236, 91, 33);
+}
+
+th,
+td {
+    background-color: rgb(49, 49, 49);
+}
+
+h3 {
+    background-color: rgb(255, 255, 255);
+}
+h1 {
+    background-color: aliceblue;
+    text-align: center;
+}
