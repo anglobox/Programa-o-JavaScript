@@ -15,11 +15,7 @@ while (selecao !== 3) {
         case 1:
             menu = 0; // para reiniciar o menu
             while (menu !== 4) {
-                console.log(" 1 - Coca-Cola (R$5,50)")
-                console.log(" 2 - Chocolate (R$3,00)")
-                console.log(" 3 - Chips (R$4,00)")
-                console.log(" 4 - Finalizar a venda")
-                menu = Number(prompt("Escolha os dos produtos a serem adicionados:"))
+                menu = Number(prompt("Escolha os produtos a serem adicionados: \n 1 - Coca-Cola (R$5,50) \n 2 - Chocolate (R$3,00) \n 3 - Chips (R$4,00) \n 4 - Finalizar a venda"))
 
                 switch (menu) {
                     case 1:
