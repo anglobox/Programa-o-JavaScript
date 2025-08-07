@@ -21,14 +21,12 @@
         <div class="ordenar">
             <a href="pg-principal.html"><img src="/Filmes/Mega-Piratao.png" alt=""></a>
             <div class="btn">
-                <div class="selecao">
+                <div id="selecao-acao">
                     <div class="visited-filmes"> <a href="/HTML/acao.html">Ação</a></div>
                 </div>
                 <!--deixando as div em absolute no css para não pegar formatação da div main -->
-                <div class="selecao">
-                    <div class="visited-filmes">
-                        <div class="visited-filmes"> <a href="/HTML/aventura.html" target="_self">Aventura</a></div>
-                    </div>
+                <div id="selecao-aventura">
+                    <div class="visited-filmes"> <a href="/HTML/aventura.html">Aventura</a></div>
                 </div>
                 <div class="selecao">
                     <div class="visited-filmes"> <a href="/HTML/comedia.html">Comédia</a></div>
@@ -53,7 +51,8 @@
     </div>
 </header>
 
-<div class="busca2"><strong>Busca </strong><div class="lupa"> <!-- estlizar campo de busca-->
+<div class="busca2"><strong>Busca </strong>
+    <div class="lupa"> <!-- estlizar campo de busca-->
         <img src="/Filmes/lupa.png" alt="Lupa">  <!-- para fazer espaço vazio = alt+0160 -->
     </div>
     <input type="text" id="busca" required placeholder="Busque seu filme favorito...">
@@ -62,7 +61,8 @@
     <div class="pop"><strong>⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐      Nossos filmes polulares      ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐</strong></div>
 </div>
 <div id="linha-preta"></div>
-<div id="login">Faça login agora para ter acesso aos nossos melhores filmes<br>↓<br><a href="login.html">Login 👤</a></div>
+<div id="login">Faça login agora para ter acesso aos nossos melhores filmes<br>↓<br><a href="login.html">Login 👤</a>
+</div>
 <div id="linha-preta"></div>
 <div class="filmesborda1">
     <div class="filmes"><img src="/Filmes/pg-principal/dragao.jpg" alt=""></div>
@@ -85,5 +85,6 @@
 
 <h3 class="formulario"><a href="formulario.html" target="_blank">Formulario de avaliação do catalogo dos Filmes</a>
 </h3>
-<footer id="cinema"><a href="/HTML/cinema.html">🎥 Também confira nosso cartaz de cinema do Shopping Piratão 🎥</a></footer>
+<footer id="cinema"><a href="/HTML/cinema.html">🎥 Também confira nosso cartaz de cinema do Shopping Piratão 🎥</a>
+</footer>
 </body>
