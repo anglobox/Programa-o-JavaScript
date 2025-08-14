@@ -73,9 +73,7 @@ h1 {
     /* opcional: remove o sublinhado */
 }
 
-.visited-filmes a:hover {
-    
-}
+.visited-filmes a:hover {}
 
 .filmes {
     box-sizing: border-box;
@@ -167,6 +165,9 @@ h1 {
 
 #login {
     background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     color: rgb(255, 255, 255);
     font-size: 20px;
     text-align: center;
@@ -179,20 +180,19 @@ h1 {
     text-decoration: none;
     color: #ffffff;
     font-size: 25px;
-
+/*cima, direita, baixo, esquerda*/
+    margin: 10px 0px 0px 0px;
 }
 
-#login :hover {
-    border: 10px solid #ffffff;
+#login a:hover {
+    padding: 0px 10px;
+    border: 0px ;
     border-radius: 10px;
     color: rgb(0, 0, 0);
     background-color: #ffffff;
 
 }
 
-#login a {
-
-}
 
 .busca2 {
     font-size: 3vh;
@@ -277,21 +277,14 @@ h1 {
 }
 
 #selecao-acao:hover {
-    color: rgb(0, 255, 21);
-/* ultilizando o *VH* para padronizar formatar de acordo com o tamanho da tela*/
-display: inline-block;
-background-color: rgb(0, 60, 255);
-padding: 10px;
-/* espaço do texto dentro do bloco */
-border: 7px groove rgb(0, 0, 0);
-border-radius: 15px;
-/*deixa a borda redondinha */
-margin: 5px;   
-/* opcional: remove o sublinhado */
+    color: #d13331;
+    background-color: #331010;
+    border: 7px groove  #d13331;
+
 }
 
 #selecao-acao:hover a {
-    color: rgb(0, 255, 21);
+    color:  #d13331;
 }
 
 /*cor no momento que clica*/
@@ -312,23 +305,189 @@ margin: 5px;
 }
 
 #selecao-aventura:hover {
-/* ultilizando o *VH* para padronizar formatar de acordo com o tamanho da tela*/
-display: inline-block;
-background-color: rgb(0, 60, 255);
-padding: 10px;
-/* espaço do texto dentro do bloco */
-border: 7px groove rgb(0, 0, 0);
-border-radius: 15px;
-/*deixa a borda redondinha */
-margin: 5px;   
-/* opcional: remove o sublinhado */
+    color: #43A047;
+    background-color: #C8E6C9;
+    border: 7px groove #43A047;
+
 }
 
 #selecao-aventura:hover a {
-    color: rgb(255, 255, 255);
+    color: #43A047;
 }
+
 /* trocando de cor mesmo acessado */
 
+/********************************/
+
+#selecao-comedia {
+    font-size: 3vh;
+    /* ultilizando o *VH* para padronizar formatar de acordo com o tamanho da tela*/
+    display: inline-block;
+    color: rgb(236, 91, 33);
+    background-color: rgb(19, 24, 41);
+    padding: 10px;
+    /* espaço do texto dentro do bloco */
+    border: 7px groove rgb(236, 91, 33);
+    border-radius: 15px;
+    /*deixa a borda redondinha */
+    margin: 5px;
+}
+
+#selecao-comedia:hover {
+    color: #FDD835;
+    background-color: #FFF9C4;
+    border: 7px groove #FDD835;
+
+}
+
+#selecao-comedia:hover a {
+    color:#FDD835;
+}
+
+/* trocando de cor mesmo acessado */
+
+/********************************/
+
+#selecao-drama {
+    font-size: 3vh;
+    /* ultilizando o *VH* para padronizar formatar de acordo com o tamanho da tela*/
+    display: inline-block;
+    color: rgb(236, 91, 33);
+    background-color: rgb(19, 24, 41);
+    padding: 10px;
+    /* espaço do texto dentro do bloco */
+    border: 7px groove rgb(236, 91, 33);
+    border-radius: 15px;
+    /*deixa a borda redondinha */
+    margin: 5px;
+}
+
+#selecao-drama:hover {
+    color: #494949;
+    background-color:#ffffff;
+    border: 7px groove  #494949;
+
+}
+
+#selecao-drama:hover a {
+    color:  #494949;
+}
+
+/* trocando de cor mesmo acessado */
+
+/********************************/
+
+#selecao-ficcao {
+    font-size: 3vh;
+    /* ultilizando o *VH* para padronizar formatar de acordo com o tamanho da tela*/
+    display: inline-block;
+    color: rgb(236, 91, 33);
+    background-color: rgb(19, 24, 41);
+    padding: 10px;
+    /* espaço do texto dentro do bloco */
+    border: 7px groove rgb(236, 91, 33);
+    border-radius: 15px;
+    /*deixa a borda redondinha */
+    margin: 5px;
+}
+
+#selecao-ficcao:hover {
+    color:#8E24AA;
+    background-color: #E1BEE7;
+    border: 7px groove #8E24AA;
+}
+
+#selecao-ficcao:hover a {
+    color: #8E24AA;
+}
+
+/* trocando de cor mesmo acessado */
+
+/********************************/
+
+#selecao-terror {
+    font-size: 3vh;
+    /* ultilizando o *VH* para padronizar formatar de acordo com o tamanho da tela*/
+    display: inline-block;
+    color: rgb(236, 91, 33);
+    background-color: rgb(19, 24, 41);
+    padding: 10px;
+    /* espaço do texto dentro do bloco */
+    border: 7px groove rgb(236, 91, 33);
+    border-radius: 15px;
+    /*deixa a borda redondinha */
+    margin: 5px;
+}
+
+#selecao-terror:hover {
+    color: #cf0000;
+    background-color: #424242;
+    border: 7px groove #cf0000;
+}
+
+#selecao-terror:hover a {
+    color: #cf0000;
+}
+
+/* trocando de cor mesmo acessado */
+
+/********************************/
+
+#selecao-romance {
+    font-size: 3vh;
+    /* ultilizando o *VH* para padronizar formatar de acordo com o tamanho da tela*/
+    display: inline-block;
+    color: rgb(236, 91, 33);
+    background-color: rgb(19, 24, 41);
+    padding: 10px;
+    /* espaço do texto dentro do bloco */
+    border: 7px groove rgb(236, 91, 33);
+    border-radius: 15px;
+    /*deixa a borda redondinha */
+    margin: 5px;
+}
+
+#selecao-romance:hover {
+    color:#D81B60;
+    background-color: #F8BBD0;
+    border: 7px groove #D81B60;
+}
+
+#selecao-romance:hover a {
+    color: #D81B60;
+}
+
+/* trocando de cor mesmo acessado */
+
+/********************************/
+
+#selecao-animacao {
+    font-size: 3vh;
+    /* ultilizando o *VH* para padronizar formatar de acordo com o tamanho da tela*/
+    display: inline-block;
+    color: rgb(236, 91, 33);
+    background-color: rgb(19, 24, 41);
+    padding: 10px;
+    /* espaço do texto dentro do bloco */
+    border: 7px groove rgb(236, 91, 33);
+    border-radius: 15px;
+    /*deixa a borda redondinha */
+    margin: 5px;
+}
+
+#selecao-animacao:hover {
+    color: #FB8C00;
+    background-color: #FFE0B2;
+    border: 7px groove #FB8C00;
+}
+
+#selecao-animacao:hover a {
+    color: #FB8C00;
+}
+
+/* trocando de cor mesmo acessado */
+
+/********************************/
 
 .ordenar {
     display: grid;
@@ -340,15 +499,16 @@ margin: 5px;
     /* VH serve como 12% da altura da tela */
     text-align: left;
     border: 15px groove rgb(236, 91, 33);
-        /*groove deixa a borda estilizada (obs. nunca deixar de definir a borda) */
+    /*groove deixa a borda estilizada (obs. nunca deixar de definir a borda) */
     justify-content: center;
 }
 
 /* criar outra div para fazer o fundo */
 
 .ordenar img {
- width: 35%;
+    width: 35%;
 }
+
 .ordenar a {
     text-align: center;
     display: inline-block;
@@ -356,7 +516,10 @@ margin: 5px;
 }
 
 .btn {
+    display: flex;
+    justify-content: flex-start;
     margin: 20px;
+
 }
 
 #cinema {
